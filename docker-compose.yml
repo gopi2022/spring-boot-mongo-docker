@@ -36,7 +36,12 @@ services:
     networks:
     - springappnetwork
     
- 
+volumes:
+  mongodb:
+    
+    
+networks:
+  springappnetwork:
    
     
   
